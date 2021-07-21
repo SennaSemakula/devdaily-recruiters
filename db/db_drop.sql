@@ -1,0 +1,3 @@
+DROP SCHEMA devdaily CASCADE; 
+DROP DATABASE devdailyDB;
+DROP USER devdaily;

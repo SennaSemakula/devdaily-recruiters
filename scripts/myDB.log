@@ -1,0 +1,410 @@
+2021-07-11 12:53:08.413 BST [26089] FATAL:  lock file "postmaster.pid" already exists
+2021-07-11 12:53:08.413 BST [26089] HINT:  Is another postmaster (PID 25920) running in data directory "/usr/local/var/postgres"?
+2021-07-11 12:54:03.406 BST [26144] LOG:  starting PostgreSQL 13.3 on arm-apple-darwin20.4.0, compiled by Apple clang version 12.0.5 (clang-1205.0.22.9), 64-bit
+2021-07-11 12:54:03.406 BST [26144] LOG:  listening on IPv6 address "::1", port 5432
+2021-07-11 12:54:03.406 BST [26144] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2021-07-11 12:54:03.407 BST [26144] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-07-11 12:54:03.409 BST [26145] LOG:  database system was shut down at 2021-07-11 12:53:56 BST
+2021-07-11 12:54:03.412 BST [26144] LOG:  database system is ready to accept connections
+2021-07-11 12:56:53.883 BST [26179] ERROR:  syntax error at or near "ls" at character 1
+2021-07-11 12:56:53.883 BST [26179] STATEMENT:  ls
+	DESCRIBE
+	CREATE DATABASE devdaily;
+2021-07-11 14:21:03.475 BST [26748] FATAL:  role "postgres" does not exist
+2021-07-11 14:21:57.092 BST [26760] FATAL:  role "postgres" does not exist
+2021-07-11 14:22:32.644 BST [26771] FATAL:  database "sennasemakula-buuza" does not exist
+2021-07-11 14:23:26.514 BST [26801] ERROR:  syntax error at or near "devdaily" at character 6
+2021-07-11 14:23:26.514 BST [26801] STATEMENT:  DROP devdaily;
+2021-07-11 14:53:56.122 BST [27707] FATAL:  database "postgresg" does not exist
+2021-07-11 15:05:45.541 BST [27741] ERROR:  syntax error at or near "ls" at character 1
+2021-07-11 15:05:45.541 BST [27741] STATEMENT:  ls
+	DROP USER devdaily;
+2021-07-11 15:05:58.501 BST [27741] ERROR:  role "devdaily" does not exist
+2021-07-11 15:05:58.501 BST [27741] STATEMENT:  DROP USER devdaily;
+2021-07-11 15:08:20.056 BST [27849] FATAL:  database "sennasemakula-buuza" does not exist
+2021-07-11 15:10:16.674 BST [27876] FATAL:  role "db_create.sql" does not exist
+2021-07-11 15:10:25.610 BST [27885] FATAL:  database "db" does not exist
+2021-07-11 15:10:25.639 BST [27895] FATAL:  database "db" does not exist
+2021-07-11 15:10:25.661 BST [27905] FATAL:  database "db" does not exist
+2021-07-11 15:10:26.619 BST [27915] FATAL:  database "db_d" does not exist
+2021-07-11 15:10:26.640 BST [27925] FATAL:  database "db_d" does not exist
+2021-07-11 15:10:26.660 BST [27935] FATAL:  database "db_d" does not exist
+2021-07-11 15:10:27.222 BST [27945] FATAL:  database "db_dr" does not exist
+2021-07-11 15:10:27.243 BST [27955] FATAL:  database "db_dr" does not exist
+2021-07-11 15:10:27.263 BST [27965] FATAL:  database "db_dr" does not exist
+2021-07-11 15:10:35.367 BST [27987] FATAL:  database "sennasemakula-buuza" does not exist
+2021-07-11 15:10:40.328 BST [27997] FATAL:  database "db_drop" does not exist
+2021-07-11 15:10:40.348 BST [28007] FATAL:  database "db_drop" does not exist
+2021-07-11 15:10:40.369 BST [28017] FATAL:  database "db_drop" does not exist
+2021-07-11 15:10:42.333 BST [28024] FATAL:  role "db_drop.sql" does not exist
+2021-07-11 15:10:50.060 BST [28029] FATAL:  role "db_drop.sql" does not exist
+2021-07-11 15:11:07.462 BST [28043] FATAL:  role "db_drop.sql" does not exist
+2021-07-11 15:11:13.287 BST [28048] FATAL:  role "db_create.sql" does not exist
+2021-07-11 15:11:25.575 BST [28059] FATAL:  role "db_create.sql" does not exist
+2021-07-11 15:14:36.220 BST [28141] ERROR:  syntax error at or near "du" at character 1
+2021-07-11 15:14:36.220 BST [28141] STATEMENT:  du
+2021-07-11 15:18:15.614 BST [28181] FATAL:  database "posgres" does not exist
+2021-07-11 15:18:16.841 BST [28188] FATAL:  database "sennasemakula-buuza" does not exist
+2021-07-11 15:21:15.554 BST [28240] ERROR:  syntax error at or near "use" at character 1
+2021-07-11 15:21:15.554 BST [28240] STATEMENT:  use devdailydb
+	CREATE TABLE hi;
+2021-07-11 15:22:11.531 BST [28251] ERROR:  syntax error at or near "DROP" at character 15
+2021-07-11 15:22:11.531 BST [28251] STATEMENT:  DROP USER lol
+	DROP USER helloworld;
+2021-07-11 15:22:24.860 BST [28251] ERROR:  syntax error at or near "DROP" at character 22
+2021-07-11 15:22:24.860 BST [28251] STATEMENT:  DROP USER helloworld
+	DROP USER lol;
+2021-07-11 15:22:50.296 BST [28251] ERROR:  syntax error at or near "USE" at character 1
+2021-07-11 15:22:50.296 BST [28251] STATEMENT:  USE devdailydfsgd;
+2021-07-11 15:22:57.622 BST [28251] ERROR:  syntax error at or near "USE" at character 1
+2021-07-11 15:22:57.622 BST [28251] STATEMENT:  USE DATABASE fdsgdf;
+2021-07-11 15:23:01.311 BST [28251] ERROR:  syntax error at or near "]" at character 1
+2021-07-11 15:23:01.311 BST [28251] STATEMENT:  ]
+	USE DATABASE fdsgdf;
+2021-07-11 15:23:03.505 BST [28251] ERROR:  syntax error at or near "USE" at character 1
+2021-07-11 15:23:03.505 BST [28251] STATEMENT:  USE DATABASE fdsgdf;
+2021-07-11 15:23:08.258 BST [28251] ERROR:  syntax error at or near "USE" at character 1
+2021-07-11 15:23:08.258 BST [28251] STATEMENT:  USE DATABASE hi;
+2021-07-11 15:23:13.598 BST [28251] ERROR:  syntax error at or near "USE" at character 1
+2021-07-11 15:23:13.598 BST [28251] STATEMENT:  USE lol;
+2021-07-11 15:23:17.950 BST [28251] ERROR:  syntax error at or near "USE" at character 1
+2021-07-11 15:23:17.950 BST [28251] STATEMENT:  USE postgres;
+2021-07-11 15:23:24.794 BST [28251] ERROR:  syntax error at or near "USE" at character 1
+2021-07-11 15:23:24.794 BST [28251] STATEMENT:  USE postgres;
+2021-07-11 15:23:29.774 BST [28272] ERROR:  syntax error at or near "USE" at character 1
+2021-07-11 15:23:29.774 BST [28272] STATEMENT:  USE postgres;
+2021-07-11 15:23:37.011 BST [28272] ERROR:  syntax error at or near "USE" at character 1
+2021-07-11 15:23:37.011 BST [28272] STATEMENT:  USE postgres ;
+2021-07-11 15:24:12.652 BST [28343] FATAL:  database "lol" does not exist
+2021-07-11 15:25:10.776 BST [28345] ERROR:  syntax error at or near ";" at character 18
+2021-07-11 15:25:10.776 BST [28345] STATEMENT:  CREATE TABLE test;
+2021-07-11 15:25:28.628 BST [28345] ERROR:  unrecognized configuration parameter "tables"
+2021-07-11 15:25:28.628 BST [28345] STATEMENT:  SHOW TABLES;
+2021-07-11 15:26:25.568 BST [28345] ERROR:  syntax error at or near ";" at character 18
+2021-07-11 15:26:25.568 BST [28345] STATEMENT:  CREATE TABLE test;
+2021-07-11 15:26:38.878 BST [28345] ERROR:  unrecognized configuration parameter "tables"
+2021-07-11 15:26:38.878 BST [28345] STATEMENT:  SHOW TABLES;
+2021-07-11 15:28:32.489 BST [28415] FATAL:  role "db_drop.sql" does not exist
+2021-07-11 15:28:45.833 BST [28428] FATAL:  database "devdailydb" does not exist
+2021-07-11 15:29:01.301 BST [28443] ERROR:  syntax error at end of input at character 7
+2021-07-11 15:29:01.301 BST [28443] STATEMENT:  GRANT 
+2021-07-11 15:29:05.817 BST [28451] ERROR:  role "devdaily" already exists
+2021-07-11 15:29:05.817 BST [28451] STATEMENT:  CREATE USER devdaily;
+2021-07-11 15:29:05.819 BST [28451] ERROR:  database "devdailydb" already exists
+2021-07-11 15:29:05.819 BST [28451] STATEMENT:  CREATE DATABASE devdailyDB 
+	    WITH OWNER=devdaily;
+2021-07-11 15:33:36.411 BST [28501] ERROR:  role "devdaily" cannot be dropped because some objects depend on it
+2021-07-11 15:33:36.411 BST [28501] DETAIL:  owner of database devdailydb
+	1 object in database devdailydb
+2021-07-11 15:33:36.411 BST [28501] STATEMENT:  DROP USER devdaily;
+2021-07-11 15:33:54.879 BST [28511] ERROR:  database "devdailydb" does not exist
+2021-07-11 15:33:54.879 BST [28511] STATEMENT:  DROP DATABASE devdailyDB;
+2021-07-11 15:34:01.567 BST [28516] FATAL:  role "devdaily" does not exist
+2021-07-11 15:34:06.881 BST [28524] FATAL:  database "devdailydb" does not exist
+2021-07-11 15:36:30.191 BST [28559] ERROR:  syntax error at or near "=" at character 34
+2021-07-11 15:36:30.191 BST [28559] STATEMENT:  CREATE SCHEMA users AUTHORIZATION=myuser;
+2021-07-11 15:36:35.751 BST [28567] ERROR:  role "myuser" already exists
+2021-07-11 15:36:35.751 BST [28567] STATEMENT:  CREATE USER myuser;
+2021-07-11 15:36:35.751 BST [28567] ERROR:  database "userdb" already exists
+2021-07-11 15:36:35.751 BST [28567] STATEMENT:  CREATE DATABASE userDB 
+	    WITH OWNER=myuser;
+2021-07-11 15:36:46.328 BST [28575] FATAL:  database "userDB" does not exist
+2021-07-11 15:44:00.678 BST [28839] FATAL:  role "\du" does not exist
+2021-07-11 15:49:00.005 BST [28981] ERROR:  role "myuser" cannot be dropped because some objects depend on it
+2021-07-11 15:49:00.005 BST [28981] DETAIL:  owner of database userdb
+	owner of schema users
+2021-07-11 15:49:00.005 BST [28981] STATEMENT:  DROP USER myuser;
+2021-07-11 15:49:17.291 BST [28993] ERROR:  role "myuser" already exists
+2021-07-11 15:49:17.291 BST [28993] STATEMENT:  CREATE USER myuser;
+2021-07-11 15:49:17.358 BST [28993] ERROR:  schema "users" already exists
+2021-07-11 15:49:17.358 BST [28993] STATEMENT:  CREATE SCHEMA users AUTHORIZATION myuser;
+2021-07-11 15:49:27.175 BST [29003] ERROR:  role "myuser" already exists
+2021-07-11 15:49:27.175 BST [29003] STATEMENT:  CREATE USER myuser;
+2021-07-11 15:49:27.209 BST [29003] ERROR:  schema "users" already exists
+2021-07-11 15:49:27.209 BST [29003] STATEMENT:  CREATE SCHEMA users AUTHORIZATION myuser;
+2021-07-11 15:49:34.535 BST [29017] ERROR:  role "myuser" cannot be dropped because some objects depend on it
+2021-07-11 15:49:34.535 BST [29017] DETAIL:  owner of schema users
+2021-07-11 15:49:34.535 BST [29017] STATEMENT:  DROP USER myuser;
+2021-07-11 15:49:57.565 BST [29382] FATAL:  database "userdb" does not exist
+2021-07-11 15:49:57.570 BST [29384] FATAL:  database "userdb" does not exist
+2021-07-11 15:50:22.840 BST [29403] FATAL:  database "userdb" does not exist
+2021-07-11 15:50:22.846 BST [29405] FATAL:  database "userdb" does not exist
+2021-07-11 15:50:22.850 BST [29407] FATAL:  database "userdb" does not exist
+2021-07-11 15:50:50.520 BST [29426] FATAL:  database "userdb" does not exist
+2021-07-11 15:50:50.526 BST [29428] FATAL:  database "userdb" does not exist
+2021-07-11 15:50:50.531 BST [29430] FATAL:  database "userdb" does not exist
+2021-07-11 15:51:22.769 BST [29450] FATAL:  database "userdb" does not exist
+2021-07-11 15:51:22.775 BST [29452] FATAL:  database "userdb" does not exist
+2021-07-11 15:51:54.046 BST [29463] ERROR:  syntax error at or near "/" at character 1
+2021-07-11 15:51:54.046 BST [29463] STATEMENT:  /dn
+	DROP USER myuser;
+2021-07-11 15:51:59.573 BST [29463] ERROR:  role "myuser" cannot be dropped because some objects depend on it
+2021-07-11 15:51:59.573 BST [29463] DETAIL:  owner of schema users
+2021-07-11 15:51:59.573 BST [29463] STATEMENT:  DROP USER myuser;
+2021-07-11 15:52:06.550 BST [29463] ERROR:  unrecognized configuration parameter "schemas"
+2021-07-11 15:52:06.550 BST [29463] STATEMENT:  SHOW SCHEMAS;
+2021-07-11 15:53:15.943 BST [29508] ERROR:  database "userdb" does not exist
+2021-07-11 15:53:15.943 BST [29508] STATEMENT:  DROP DATABASE userDB;
+2021-07-11 15:53:20.884 BST [29513] ERROR:  schema "users" does not exist
+2021-07-11 15:53:20.884 BST [29513] STATEMENT:  DROP SCHEMA users;
+2021-07-11 15:53:20.884 BST [29513] ERROR:  database "userdb" does not exist
+2021-07-11 15:53:20.884 BST [29513] STATEMENT:  DROP DATABASE userDB;
+2021-07-11 15:53:20.884 BST [29513] ERROR:  role "myuser" does not exist
+2021-07-11 15:53:20.884 BST [29513] STATEMENT:  DROP USER myuser;
+2021-07-11 15:53:46.350 BST [29524] ERROR:  option "withowner" not recognized at character 24
+2021-07-11 15:53:46.350 BST [29524] STATEMENT:  CREATE DATABASE userDB WITHOWNER=myuser;
+2021-07-11 15:53:53.597 BST [29524] ERROR:  role "myuser" does not exist
+2021-07-11 15:53:53.597 BST [29524] STATEMENT:  CREATE DATABASE userDB WITH OWNER=myuser;
+2021-07-11 15:54:06.745 BST [29524] ERROR:  syntax error at or near "/" at character 1
+2021-07-11 15:54:06.745 BST [29524] STATEMENT:  /du
+	/du
+	;
+2021-07-11 15:54:20.255 BST [29524] ERROR:  syntax error at or near "ls" at character 1
+2021-07-11 15:54:20.255 BST [29524] STATEMENT:  ls
+	;
+2021-07-11 15:59:20.493 BST [29580] FATAL:  database "stop" does not exist
+2021-07-11 15:59:53.485 BST [26144] LOG:  received fast shutdown request
+2021-07-11 15:59:53.486 BST [26144] LOG:  aborting any active transactions
+2021-07-11 15:59:53.486 BST [29524] FATAL:  terminating connection due to administrator command
+2021-07-11 15:59:53.487 BST [26144] LOG:  background worker "logical replication launcher" (PID 26151) exited with exit code 1
+2021-07-11 15:59:53.487 BST [26146] LOG:  shutting down
+2021-07-11 15:59:53.490 BST [26144] LOG:  database system is shut down
+2021-07-11 16:07:07.794 BST [29863] LOG:  starting PostgreSQL 13.3 on arm-apple-darwin20.4.0, compiled by Apple clang version 12.0.5 (clang-1205.0.22.9), 64-bit
+2021-07-11 16:07:07.794 BST [29863] LOG:  listening on IPv6 address "::1", port 5432
+2021-07-11 16:07:07.794 BST [29863] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2021-07-11 16:07:07.795 BST [29863] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-07-11 16:07:07.799 BST [29864] LOG:  database system was shut down at 2021-07-11 15:59:53 BST
+2021-07-11 16:07:07.802 BST [29863] LOG:  database system is ready to accept connections
+2021-07-11 16:08:00.760 BST [29863] LOG:  received fast shutdown request
+2021-07-11 16:08:00.761 BST [29863] LOG:  aborting any active transactions
+2021-07-11 16:08:00.761 BST [29863] LOG:  background worker "logical replication launcher" (PID 29870) exited with exit code 1
+2021-07-11 16:08:00.761 BST [29865] LOG:  shutting down
+2021-07-11 16:08:00.765 BST [29863] LOG:  database system is shut down
+2021-07-11 16:14:19.208 BST [29951] LOG:  starting PostgreSQL 13.3 on arm-apple-darwin20.4.0, compiled by Apple clang version 12.0.5 (clang-1205.0.22.9), 64-bit
+2021-07-11 16:14:19.210 BST [29951] LOG:  listening on IPv6 address "::1", port 5432
+2021-07-11 16:14:19.210 BST [29951] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2021-07-11 16:14:19.211 BST [29951] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-07-11 16:14:19.215 BST [29952] LOG:  database system was shut down at 2021-07-11 16:08:00 BST
+2021-07-11 16:14:19.218 BST [29951] LOG:  database system is ready to accept connections
+2021-07-11 16:31:37.564 BST [29963] ERROR:  schema "users" does not exist at character 14
+2021-07-11 16:31:37.564 BST [29963] STATEMENT:  CREATE TABLE users.customers (
+	    id char(5) CONSTRAINT firstkey PRIMARY KEY,
+	    first_name varchar(40) NOT NULL,
+	    age INTEGER NOT NULL,
+	    CONSTRAINT age check (age >= 0)
+	);
+2021-07-11 16:31:58.142 BST [29963] ERROR:  syntax error at or near "/" at character 1
+2021-07-11 16:31:58.142 BST [29963] STATEMENT:  /dn
+	CREATE SCHEMA users;
+2021-07-11 16:32:14.995 BST [29963] ERROR:  syntax error at or near "DESCRIBE" at character 1
+2021-07-11 16:32:14.995 BST [29963] STATEMENT:  DESCRIBE TABLE CUSTOMERS;
+2021-07-11 16:32:17.443 BST [29963] ERROR:  syntax error at or near "DESCRIBE" at character 1
+2021-07-11 16:32:17.443 BST [29963] STATEMENT:  DESCRIBE TABLE CUSTOMERS;
+2021-07-11 16:32:22.666 BST [29963] ERROR:  syntax error at or near "DESCRIBE" at character 1
+2021-07-11 16:32:22.666 BST [29963] STATEMENT:  DESCRIBE TABLE customers;
+2021-07-11 16:32:26.065 BST [29963] ERROR:  unrecognized configuration parameter "tables"
+2021-07-11 16:32:26.065 BST [29963] STATEMENT:  SHOW TABLES;
+2021-07-11 16:32:31.655 BST [29963] ERROR:  syntax error at or near "customers" at character 13
+2021-07-11 16:32:31.655 BST [29963] STATEMENT:  SHOW TABLES customers;
+2021-07-11 16:32:58.739 BST [29963] ERROR:  syntax error at or near "customers" at character 14
+2021-07-11 16:32:58.739 BST [29963] STATEMENT:  SHOW COLUMNS customers;
+2021-07-11 16:34:32.833 BST [30133] ERROR:  syntax error at or near "SCHEMA" at character 8
+2021-07-11 16:34:32.833 BST [30133] STATEMENT:  DELETE SCHEMA users;
+2021-07-11 16:35:59.214 BST [30154] ERROR:  schema "users" does not exist at character 14
+2021-07-11 16:35:59.214 BST [30154] STATEMENT:  CREATE TABLE users.customers (
+	    id char(5) CONSTRAINT firstkey PRIMARY KEY,
+	    first_name varchar(40) NOT NULL,
+	    age INTEGER NOT NULL,
+	    CONSTRAINT age check (age >= 0)
+	);
+2021-07-11 16:36:03.009 BST [30154] ERROR:  schema "users" does not exist at character 14
+2021-07-11 16:36:03.009 BST [30154] STATEMENT:  CREATE TABLE users.customers (
+	    id char(5) CONSTRAINT firstkey PRIMARY KEY,
+	    first_name varchar(40) NOT NULL,
+	    age INTEGER NOT NULL,
+	    CONSTRAINT age check (age >= 0)
+	);
+2021-07-11 16:37:12.826 BST [30154] ERROR:  syntax error at or near "/" at character 1
+2021-07-11 16:37:12.826 BST [30154] STATEMENT:  /dt
+	CREATE TABLE customers (
+	    id char(5) CONSTRAINT firstkey PRIMARY KEY,
+	    first_name varchar(40) NOT NULL,
+	    age INTEGER NOT NULL,
+	    CONSTRAINT age check (age >= 0)
+	);
+2021-07-11 16:42:34.606 BST [30205] ERROR:  cannot drop schema users because other objects depend on it
+2021-07-11 16:42:34.606 BST [30205] DETAIL:  table users.customers depends on schema users
+2021-07-11 16:42:34.606 BST [30205] HINT:  Use DROP ... CASCADE to drop the dependent objects too.
+2021-07-11 16:42:34.606 BST [30205] STATEMENT:  DROP SCHEMA users;
+2021-07-11 16:42:37.730 BST [30210] ERROR:  cannot drop schema users because other objects depend on it
+2021-07-11 16:42:37.730 BST [30210] DETAIL:  table users.customers depends on schema users
+2021-07-11 16:42:37.730 BST [30210] HINT:  Use DROP ... CASCADE to drop the dependent objects too.
+2021-07-11 16:42:37.730 BST [30210] STATEMENT:  DROP SCHEMA users;
+2021-07-11 16:42:37.731 BST [30210] ERROR:  database "userdb" does not exist
+2021-07-11 16:42:37.731 BST [30210] STATEMENT:  DROP DATABASE userDB;
+2021-07-11 16:42:37.731 BST [30210] ERROR:  role "myuser" does not exist
+2021-07-11 16:42:37.731 BST [30210] STATEMENT:  DROP USER myuser;
+2021-07-11 16:43:02.843 BST [30223] ERROR:  syntax error at or near "users" at character 21
+2021-07-11 16:43:02.843 BST [30223] STATEMENT:  DROP SCHEMA CASCADE users;
+2021-07-11 16:43:02.843 BST [30223] ERROR:  database "userdb" does not exist
+2021-07-11 16:43:02.843 BST [30223] STATEMENT:  DROP DATABASE userDB;
+2021-07-11 16:43:02.843 BST [30223] ERROR:  role "myuser" does not exist
+2021-07-11 16:43:02.843 BST [30223] STATEMENT:  DROP USER myuser;
+2021-07-11 16:43:08.578 BST [30231] ERROR:  syntax error at or near "CASCADE" at character 6
+2021-07-11 16:43:08.578 BST [30231] STATEMENT:  DROP CASCADE SCHEMA  users;
+2021-07-11 16:43:08.578 BST [30231] ERROR:  database "userdb" does not exist
+2021-07-11 16:43:08.578 BST [30231] STATEMENT:  DROP DATABASE userDB;
+2021-07-11 16:43:08.578 BST [30231] ERROR:  role "myuser" does not exist
+2021-07-11 16:43:08.578 BST [30231] STATEMENT:  DROP USER myuser;
+2021-07-11 16:43:15.119 BST [30239] ERROR:  syntax error at or near "users" at character 21
+2021-07-11 16:43:15.119 BST [30239] STATEMENT:  DROP SCHEMA CASCADE users;
+2021-07-11 16:43:15.119 BST [30239] ERROR:  database "userdb" does not exist
+2021-07-11 16:43:15.119 BST [30239] STATEMENT:  DROP DATABASE userDB;
+2021-07-11 16:43:15.119 BST [30239] ERROR:  role "myuser" does not exist
+2021-07-11 16:43:15.119 BST [30239] STATEMENT:  DROP USER myuser;
+2021-07-11 16:43:50.640 BST [30253] ERROR:  database "userdb" does not exist
+2021-07-11 16:43:50.640 BST [30253] STATEMENT:  DROP DATABASE userDB;
+2021-07-11 16:43:50.640 BST [30253] ERROR:  role "myuser" does not exist
+2021-07-11 16:43:50.640 BST [30253] STATEMENT:  DROP USER myuser;
+2021-07-11 16:43:57.444 BST [30258] ERROR:  schema "users" does not exist
+2021-07-11 16:43:57.444 BST [30258] STATEMENT:  DROP SCHEMA users CASCADE;
+2021-07-11 16:43:57.444 BST [30258] ERROR:  database "userdb" does not exist
+2021-07-11 16:43:57.444 BST [30258] STATEMENT:  DROP DATABASE userDB;
+2021-07-11 16:43:57.444 BST [30258] ERROR:  role "myuser" does not exist
+2021-07-11 16:43:57.444 BST [30258] STATEMENT:  DROP USER myuser;
+2021-07-11 16:44:40.535 BST [30290] FATAL:  database "myusers" does not exist
+2021-07-11 16:44:44.519 BST [30295] FATAL:  database "usersdb" does not exist
+2021-07-11 16:44:55.626 BST [30303] FATAL:  database "userDB" does not exist
+2021-07-11 16:44:57.023 BST [30308] FATAL:  database "usersDB" does not exist
+2021-07-11 16:45:06.726 BST [30314] FATAL:  database "userDB" does not exist
+2021-07-11 16:46:11.273 BST [30357] FATAL:  database "userDB" does not exist
+2021-07-11 16:46:54.488 BST [30381] FATAL:  database "userDB" does not exist
+2021-07-11 16:48:00.243 BST [30416] FATAL:  database "userDB" does not exist
+2021-07-11 17:05:17.297 BST [29951] LOG:  received fast shutdown request
+2021-07-11 17:05:17.297 BST [29951] LOG:  aborting any active transactions
+2021-07-11 17:05:17.298 BST [29951] LOG:  background worker "logical replication launcher" (PID 29958) exited with exit code 1
+2021-07-11 17:05:17.298 BST [29953] LOG:  shutting down
+2021-07-11 17:05:17.301 BST [29951] LOG:  database system is shut down
+2021-07-11 19:07:36.841 BST [32354] LOG:  starting PostgreSQL 13.3 on arm-apple-darwin20.4.0, compiled by Apple clang version 12.0.5 (clang-1205.0.22.9), 64-bit
+2021-07-11 19:07:36.841 BST [32354] LOG:  listening on IPv6 address "::1", port 5432
+2021-07-11 19:07:36.842 BST [32354] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2021-07-11 19:07:36.842 BST [32354] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-07-11 19:07:36.846 BST [32355] LOG:  database system was shut down at 2021-07-11 17:05:17 BST
+2021-07-11 19:07:36.850 BST [32354] LOG:  database system is ready to accept connections
+2021-07-11 19:07:59.965 BST [32399] FATAL:  database "sennasemakula-buuza" does not exist
+2021-07-11 19:09:22.772 BST [32558] FATAL:  role "devdaily" does not exist
+2021-07-11 19:09:43.840 BST [32565] ERROR:  schema "devdaily" does not exist
+2021-07-11 19:09:43.840 BST [32565] STATEMENT:  DROP SCHEMA devdaily CASCADE;
+2021-07-11 19:09:43.841 BST [32565] ERROR:  database "devdailydb" does not exist
+2021-07-11 19:09:43.841 BST [32565] STATEMENT:  DROP DATABASE devdailyDB;
+2021-07-11 19:09:43.841 BST [32565] ERROR:  permission denied to drop role
+2021-07-11 19:09:43.841 BST [32565] STATEMENT:  DROP USER devdaily;
+2021-07-11 19:09:55.541 BST [32570] FATAL:  role "postgres" does not exist
+2021-07-11 19:10:02.727 BST [32576] ERROR:  schema "devdaily" does not exist
+2021-07-11 19:10:02.727 BST [32576] STATEMENT:  DROP SCHEMA devdaily CASCADE;
+2021-07-11 19:10:02.727 BST [32576] ERROR:  database "devdailydb" does not exist
+2021-07-11 19:10:02.727 BST [32576] STATEMENT:  DROP DATABASE devdailyDB;
+2021-07-11 19:10:02.727 BST [32576] ERROR:  role "devdaily" does not exist
+2021-07-11 19:10:02.727 BST [32576] STATEMENT:  DROP USER devdaily;
+2021-07-11 19:10:33.159 BST [32592] ERROR:  schema "users" already exists
+2021-07-11 19:10:33.159 BST [32592] STATEMENT:  CREATE SCHEMA users AUTHORIZATION devdaily;
+2021-07-11 19:11:00.244 BST [32625] FATAL:  database "devdaily" does not exist
+2021-07-11 19:12:13.362 BST [32695] FATAL:  database "devdaily" does not exist
+2021-07-21 10:53:03.859 BST [4487] LOG:  starting PostgreSQL 13.3 on arm-apple-darwin20.4.0, compiled by Apple clang version 12.0.5 (clang-1205.0.22.9), 64-bit
+2021-07-21 10:53:03.860 BST [4487] LOG:  listening on IPv6 address "::1", port 5432
+2021-07-21 10:53:03.860 BST [4487] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2021-07-21 10:53:03.860 BST [4487] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-07-21 10:53:03.865 BST [4488] LOG:  database system was interrupted; last known up at 2021-07-11 19:15:33 BST
+2021-07-21 10:53:03.909 BST [4488] LOG:  database system was not properly shut down; automatic recovery in progress
+2021-07-21 10:53:03.912 BST [4488] LOG:  redo starts at 0/16E9EE8
+2021-07-21 10:53:03.912 BST [4488] LOG:  invalid record length at 0/16E9FD0: wanted 24, got 0
+2021-07-21 10:53:03.912 BST [4488] LOG:  redo done at 0/16E9F98
+2021-07-21 10:53:03.915 BST [4487] LOG:  database system is ready to accept connections
+2021-07-21 11:32:38.443 BST [5395] FATAL:  database "sennasemakula-buuza" does not exist
+2021-07-21 11:33:23.782 BST [5420] FATAL:  database "developers" does not exist
+2021-07-21 11:33:27.654 BST [5421] FATAL:  database "customers" does not exist
+2021-07-21 11:33:32.560 BST [5422] FATAL:  database "devdaily" does not exist
+2021-07-21 12:07:08.863 BST [5441] ERROR:  type "datetime" does not exist at character 190
+2021-07-21 12:07:08.863 BST [5441] STATEMENT:  CREATE TABLE developers (
+	    id char(5) CONSTRAINT firstkey PRIMARY KEY,
+	    first_name varchar(40) NOT NULL,
+	    age INTEGER NOT NULL,
+	    CONSTRAINT age check (age >= 0),
+	    created_at DATETIME
+	);
+2021-07-21 12:11:56.334 BST [5883] ERROR:  syntax error at or near "," at character 70
+2021-07-21 12:11:56.334 BST [5883] STATEMENT:  INSERT INTO developers (first_name, age, created_at) VALUES (Senna, ?, 2021-07-21 12:11:56.334401 +0100 BST m=+0.007887584)
+2021-07-21 12:12:23.656 BST [5932] ERROR:  syntax error at or near "," at character 70
+2021-07-21 12:12:23.656 BST [5932] STATEMENT:  INSERT INTO developers (first_name, age, created_at) VALUES (Senna, ?, 2021-07-21 12:12:23.656543 +0100 BST m=+0.010455459)
+2021-07-21 12:12:33.157 BST [5974] ERROR:  syntax error at or near "," at character 70
+2021-07-21 12:12:33.157 BST [5974] STATEMENT:  INSERT INTO developers (first_name, age, created_at) VALUES (Senna, ?, 2021-07-21 12:12:33.157381 +0100 BST m=+0.007669001)
+2021-07-21 12:13:58.858 BST [6140] ERROR:  syntax error at or near "," at character 63
+2021-07-21 12:13:58.858 BST [6140] STATEMENT:  INSERT INTO developers (first_name, age, created_at) VALUES (?, ?, ?)
+2021-07-21 12:14:42.867 BST [6226] ERROR:  syntax error at or near "," at character 63
+2021-07-21 12:14:42.867 BST [6226] STATEMENT:  INSERT INTO developers (first_name, age, created_at) VALUES (?, ?, ?)
+2021-07-21 12:25:02.752 BST [6341] ERROR:  syntax error at or near "," at character 63
+2021-07-21 12:25:02.752 BST [6341] STATEMENT:  INSERT INTO developers (first_name, age, created_at) VALUES (?, ?, ?);
+2021-07-21 12:26:33.717 BST [5441] ERROR:  syntax error at or near "table" at character 8
+2021-07-21 12:26:33.717 BST [5441] STATEMENT:  UPDATE table developers
+	SET id = SERIAL PRIMARY KEY
+	;
+2021-07-21 12:27:42.441 BST [5441] ERROR:  syntax error at or near "PRIMARY" at character 52
+2021-07-21 12:27:42.441 BST [5441] STATEMENT:  ALTER TABLE developers
+	ALTER COLUMN id TYPE SERIAL PRIMARY KEY;
+2021-07-21 12:28:02.709 BST [5441] ERROR:  type "serial" does not exist
+2021-07-21 12:28:02.709 BST [5441] STATEMENT:  ALTER TABLE developers
+	ALTER COLUMN id TYPE SERIAL;
+2021-07-21 12:28:08.881 BST [5441] ERROR:  type "serial" does not exist
+2021-07-21 12:28:08.881 BST [5441] STATEMENT:  ALTER TABLE developers
+	ALTER COLUMN id TYPE SERIAL;
+2021-07-21 12:28:56.424 BST [5441] ERROR:  syntax error at or near "PRIMARY" at character 55
+2021-07-21 12:28:56.424 BST [5441] STATEMENT:  ALTER TABLE developers
+	ALTER COLUMN id TYPE BIGSERIAL PRIMARY KEY;
+2021-07-21 12:29:12.762 BST [5441] ERROR:  syntax error at or near "BIGSERIAL" at character 40
+2021-07-21 12:29:12.762 BST [5441] STATEMENT:  ALTER TABLE developers
+	ALTER COLUMN id BIGSERIAL PRIMARY KEY;
+2021-07-21 12:30:04.357 BST [5441] ERROR:  unrecognized configuration parameter "columns"
+2021-07-21 12:30:04.357 BST [5441] STATEMENT:  SHOW COLUMNS;
+2021-07-21 12:30:14.002 BST [5441] ERROR:  syntax error at or near "describe" at character 1
+2021-07-21 12:30:14.002 BST [5441] STATEMENT:  describe table developers;
+2021-07-21 12:30:37.079 BST [6462] ERROR:  syntax error at or near "," at character 63
+2021-07-21 12:30:37.079 BST [6462] STATEMENT:  INSERT INTO developers (first_name, age, created_at) VALUES (?, ?, ?)
+2021-07-21 12:45:33.824 BST [6597] ERROR:  syntax error at or near "," at character 63
+2021-07-21 12:45:33.824 BST [6597] STATEMENT:  INSERT INTO developers (first_name, age, created_at) VALUES (?, ?, ?)
+2021-07-21 12:46:13.569 BST [6652] ERROR:  syntax error at or near "," at character 63
+2021-07-21 12:46:13.569 BST [6652] STATEMENT:  INSERT INTO developers (first_name, age, created_at) VALUES (?, ?, ?)
+2021-07-21 12:46:21.130 BST [6698] ERROR:  syntax error at or near "," at character 63
+2021-07-21 12:46:21.130 BST [6698] STATEMENT:  INSERT INTO developers (first_name, age, created_at) VALUES (?, ?, ?)
+2021-07-21 12:46:33.105 BST [6737] ERROR:  syntax error at or near "," at character 63
+2021-07-21 12:46:33.105 BST [6737] STATEMENT:  INSERT INTO developers (first_name, age, created_at) VALUES (?, ?, ?)
+2021-07-21 12:47:54.044 BST [6805] ERROR:  relation "developers" does not exist at character 13
+2021-07-21 12:47:54.044 BST [6805] STATEMENT:  INSERT INTO developers (first_name, age, created_at) VALUES ($2, $3, $4)
+2021-07-21 12:48:20.158 BST [6855] FATAL:  database "devdailyDB" does not exist
+2021-07-21 12:48:35.281 BST [6896] ERROR:  could not determine data type of parameter $1
+2021-07-21 12:48:35.281 BST [6896] STATEMENT:  INSERT INTO developers (first_name, age, created_at) VALUES ($2, $3, $4)
+2021-07-21 12:48:41.668 BST [6934] ERROR:  could not determine data type of parameter $1
+2021-07-21 12:48:41.668 BST [6934] STATEMENT:  INSERT INTO developers (first_name, age, created_at) VALUES ($2, $3, $4)
+2021-07-21 12:48:54.975 BST [6975] ERROR:  syntax error at or near "," at character 63
+2021-07-21 12:48:54.975 BST [6975] STATEMENT:  INSERT INTO developers (first_name, age, created_at) VALUES (?, ?, ?)
+2021-07-21 12:49:34.183 BST [7024] ERROR:  inconsistent types deduced for parameter $3 at character 70
+2021-07-21 12:49:34.183 BST [7024] DETAIL:  integer versus timestamp without time zone
+2021-07-21 12:49:34.183 BST [7024] STATEMENT:  INSERT INTO developers (first_name, age, created_at) VALUES ($2, $3, $3)
+2021-07-21 12:49:51.151 BST [7062] ERROR:  inconsistent types deduced for parameter $3 at character 70
+2021-07-21 12:49:51.151 BST [7062] DETAIL:  integer versus timestamp without time zone
+2021-07-21 12:49:51.151 BST [7062] STATEMENT:  INSERT INTO developers (first_name, age, created_at) VALUES ($2, $3, $3)
+2021-07-21 12:49:58.208 BST [7099] ERROR:  inconsistent types deduced for parameter $3 at character 70
+2021-07-21 12:49:58.208 BST [7099] DETAIL:  integer versus timestamp without time zone
+2021-07-21 12:49:58.208 BST [7099] STATEMENT:  INSERT INTO developers (first_name, age, created_at) VALUES ($2, $3, $3)
+2021-07-21 12:51:28.292 BST [7154] ERROR:  could not determine data type of parameter $1
+2021-07-21 12:51:28.292 BST [7154] STATEMENT:  INSERT INTO developers (first_name, age, created_at) VALUES ($2, $3, $4)
+2021-07-21 12:52:49.189 BST [7209] ERROR:  INSERT has more expressions than target columns at character 74
+2021-07-21 12:52:49.189 BST [7209] STATEMENT:  INSERT INTO developers (first_name, age, created_at) VALUES ($1, $2, $3, $4)
+2021-07-21 12:52:57.546 BST [7248] ERROR:  permission denied for table developers
+2021-07-21 12:52:57.546 BST [7248] STATEMENT:  INSERT INTO developers (id, first_name, age, created_at) VALUES ($1, $2, $3, $4)
+2021-07-21 12:54:42.655 BST [7310] ERROR:  must be owner of table developers
+2021-07-21 12:54:42.655 BST [7310] STATEMENT:  DROP TABLE developers;
+2021-07-21 12:55:54.969 BST [7429] ERROR:  duplicate key value violates unique constraint "firstkey"
+2021-07-21 12:55:54.969 BST [7429] DETAIL:  Key (id)=(0) already exists.
+2021-07-21 12:55:54.969 BST [7429] STATEMENT:  INSERT INTO developers (id, first_name, age, created_at) VALUES ($1, $2, $3, $4)
+2021-07-21 13:16:53.556 BST [8556] ERROR:  syntax error at end of input at character 76
+2021-07-21 13:16:53.556 BST [8556] STATEMENT:  SELECT id, first_name, age, created_at FROM developers where first_name = ?
